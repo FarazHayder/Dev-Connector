@@ -1,0 +1,25 @@
+{
+  "name": "mernapplication",
+  "version": "1.0.0",
+  "description": "I'm following a coursera course for complete MERN stack. So, I'm making this application following along the video so that I can get hands-on practice. Also, I do know about MERN stack, but I'm doing this course to get complete control over the MERN stack and understand everything that's happening.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Faraz Hayder",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mernapplication": "file:",
+    "mongoose": "^8.9.7",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
